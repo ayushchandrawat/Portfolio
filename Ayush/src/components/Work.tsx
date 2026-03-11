@@ -16,14 +16,14 @@ const projects = [
     category: "😊",
     tools: "React, Node.js, Express, MongoDB",
     image: "/images/Portfolio.png",
-    link: "https://yourportfolio.com"
+    link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
   },
   {
     title: "Portfolio",
     category: "😊",
     tools: "React, Node.js, Express, MongoDB",
     image: "/images/Smart Class.png",
-    link: "https://smartclass.com"
+    link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
   },
   {
     title: "Smart Class",
