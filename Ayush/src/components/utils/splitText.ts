@@ -21,7 +21,7 @@ export default function setSplitText() {
   const TriggerStart = window.innerWidth <= 1024 ? "top 60%" : "20% 60%";
   const ToggleAction = "play pause resume reverse";
 
-  // PARAGRAPH ANIMATION
+  // PARAGRAPH
   paras.forEach((para: ParaElement) => {
     para.classList.add("visible");
 
@@ -36,7 +36,7 @@ export default function setSplitText() {
     });
 
     para.anim = gsap.fromTo(
-      para.split?.words,
+      para.split?.words || [],
       { autoAlpha: 0, y: 80 },
       {
         autoAlpha: 1,
@@ -53,7 +53,7 @@ export default function setSplitText() {
     );
   });
 
-  // TITLE ANIMATION
+  // TITLE
   titles.forEach((title: ParaElement) => {
     if (title.anim) {
       title.anim.progress(1).kill();
@@ -66,7 +66,7 @@ export default function setSplitText() {
     });
 
     title.anim = gsap.fromTo(
-      title.split?.chars,
+      title.split?.chars || [],
       { autoAlpha: 0, y: 80, rotate: 10 },
       {
         autoAlpha: 1,
