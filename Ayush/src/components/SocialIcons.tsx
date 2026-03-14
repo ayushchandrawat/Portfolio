@@ -75,12 +75,24 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
+      {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
-      </a>
+      </a> */}
+
+      <a
+      className="resume-button"
+      href="public/images/AYUSH RESUME.pdf"  
+      // target="_blank"    
+      rel="noopener noreferrer"
+    >
+      <HoverLinks text="RESUME" />
+      <span>
+        <TbNotes />
+      </span>
+    </a>
     </div>
   );
 };
