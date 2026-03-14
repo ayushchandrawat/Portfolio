@@ -16,14 +16,14 @@ const projects = [
     category: "😊",
     tools: "React, Node.js, Express, MongoDB",
     image: "/images/Portfolio.png",
-    link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
+    link: "https://portfolio-3g4t.vercel.app/"
   },
   {
     title: "Portfolio",
     category: "😊",
     tools: "React, Node.js, Express, MongoDB",
     image: "/images/Smart Class.png",
-    link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
+    link: "https://portfolio-3g4t.vercel.app/"
   },
   {
     title: "Smart Class",
@@ -126,9 +126,9 @@ const Work = () => {
                         {index === 0
                           ? "GitHub Repo"
                           : index === 1
-                          ? "GitHub Repo"
+                          ? "View Project"
                           : index === 2
-                          ? "GitHub Repo"
+                          ? "View Project"
                           : "View Project"} →
                       </a>
                               </div>
