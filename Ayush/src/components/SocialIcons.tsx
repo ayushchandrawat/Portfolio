@@ -75,7 +75,15 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
+<<<<<<< HEAD
       {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
+=======
+<<<<<<< HEAD
+      <a className="resume-button" href="https://drive.google.com/file/d/16iO5kUXdTDnGkV7j0gvZ23-mL6g80hrY/view?usp=drive_link">
+=======
+      {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
+>>>>>>> c3910e5 (Initial commit: Add all project files and resume PDF)
+>>>>>>> 32405b7 (Resolved merge conflicts)
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
@@ -84,7 +92,11 @@ const SocialIcons = () => {
 
       <a
       className="resume-button"
+<<<<<<< HEAD
       href="/images/AYUSH RESUME.pdf"  
+=======
+      href="public/images/AYUSH RESUME.pdf"  
+>>>>>>> 32405b7 (Resolved merge conflicts)
       // target="_blank"    
       rel="noopener noreferrer"
     >
