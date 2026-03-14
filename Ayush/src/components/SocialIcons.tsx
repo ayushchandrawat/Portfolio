@@ -76,9 +76,6 @@ const SocialIcons = () => {
         </span>
       </div>
 <<<<<<< HEAD
-      {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
-=======
-<<<<<<< HEAD
       <a className="resume-button" href="https://drive.google.com/file/d/16iO5kUXdTDnGkV7j0gvZ23-mL6g80hrY/view?usp=drive_link">
 =======
       {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
