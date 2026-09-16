@@ -6,7 +6,7 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 const projects = [
   {
     title: "AstroMeet-Website",
-    tools: "React, Node.js, Express, MongoDB",
+    tools: "React • Node.js • Express • MongoDB",
     category: "🫡",
     image: "/images/Astro-Web.png",
     link: "https://github.com/ayushchandrawat/AstroMeet-Website"
@@ -14,28 +14,35 @@ const projects = [
   {
     title: "Portfolio",
     category: "😊",
-    tools: "React, Node.js, Express, MongoDB",
+    tools: "React • Node.js • Express • MongoDB",
     image: "/images/Portfolio.png",
     link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
   },
-  {
-    title: "Portfolio",
+   {
+    title: "Aashiyana",
     category: "😊",
-    tools: "React, Node.js, Express, MongoDB",
-    image: "/images/Smart Class.png",
-    link: "https://github.com/ayushchandrawat/Portfolio/tree/main/Ayush"
+    tools: "Html • Css • javascript • Docker",
+    image: "/images/Aashiyana.png",
+    link: "https://github.com/ayushchandrawat/Aashiyana"
+  },
+  {
+    title: "Time Tracer",
+    category: "😊",
+    tools: "HTML • CSS • JavaScript",
+    image: "/images/Time-Tracer.png",
+    link: " https://time-tracer-vlz8.vercel.app/"
   },
   {
     title: "Smart Class",
     category: "🧑🏻‍🎓",
-    tools: "HTML, CSS, MongoDB",
-    image: "/images/Calender.png",
+    tools: "HTML • CSS • MongoDB",
+    image: "/images/Smart Class.png",
     link: "https://attendance-pag-4iho.vercel.app/"
   },
   {
     title: "Calender",
     category: "🗓️",
-    tools: "HTML, CSS, MongoDB",
+    tools: "HTML • CSS • MongoDB",
     image: "/images/Calender.png",
     link: "https://flux-calendar-ljlr.vercel.app/"
   },

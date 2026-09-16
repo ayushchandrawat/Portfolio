@@ -87,25 +87,34 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
+              <h3>FRONTEND + UI</h3>
+
+              <h4>Building Interactive & Responsive UIs</h4>
+
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                I deliver pixel-perfect experiences..
+                I build responsive and user-friendly web interfaces with a focus on
+                clean design, smooth interactions, and great user experience.
               </p>
+
               <h5>Skillset & tools</h5>
+
               <div className="what-content-flex">
-                <div className="what-tags">HTML</div>
+                <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS</div>
+                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">React.js</div>
                 <div className="what-tags">Bootstrap</div>
-                {/* <div className="what-tags">Angular</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div> */}
-                
+
+                <div className="what-tags">Java</div>
+                <div className="what-tags">OOP</div>
+                <div className="what-tags">Problem Solving</div>
+                <div className="what-tags">REST APIs</div>
+
+                <div className="what-tags">Git</div>
+                <div className="what-tags">GitHub</div>
+                <div className="what-tags">Postman</div>
               </div>
+
               <div className="what-arrow"></div>
             </div>
           </div>
@@ -128,25 +137,33 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
+              <h3>BACKEND + AI + DB</h3>
               <h4>Scalable Backend Development</h4>
               <p>
-                I build strong and reliable backend systems that manage data and application logic. 
-                Using APIs and server technologies, I create backends that are fast, secure..
+                I build reliable backend systems focused on application logic, APIs,
+                databases, and scalable application development.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-               
-                {/* <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div> */}
-                 <div className="what-tags">MYSQL</div>
-                <div className="what-tags">MongoDB</div>
-                 <div className="what-tags">Node.js</div>
-                {/* <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div> */}
                 <div className="what-tags">Python</div>
-                <div className="what-tags">Java</div>
+                <div className="what-tags">AI</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">Generative AI</div>
+                <div className="what-tags">LLMs</div>
+
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">DBMS</div>
+
+                <div className="what-tags">Linux</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Operating Systems</div>
+                <div className="what-tags">Computer Networks</div>
+
+                <div className="what-tags">Analysis & Design of Algorithms</div>
+                <div className="what-tags">Communication</div>
+                <div className="what-tags">Teamwork</div>
+                <div className="what-tags">Leadership</div>
               </div>
               <div className="what-arrow"></div>
             </div>
