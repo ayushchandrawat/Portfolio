@@ -1,3 +1,4 @@
+
 import {
   FaGithub,
   FaInstagram,
@@ -15,8 +16,8 @@ const SocialIcons = () => {
     social.querySelectorAll("span").forEach((item) => {
       const elem = item as HTMLElement;
       const link = elem.querySelector("a") as HTMLElement;
-
       const rect = elem.getBoundingClientRect();
+
       let mouseX = rect.width / 2;
       let mouseY = rect.height / 2;
       let currentX = 0;
@@ -46,11 +47,10 @@ const SocialIcons = () => {
       };
 
       document.addEventListener("mousemove", onMouseMove);
-
       updatePosition();
 
       return () => {
-        elem.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mousemove", onMouseMove);
       };
     });
   }, []);
@@ -59,51 +59,49 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/ayushchandrawat" target="_blank">
+          <a
+            href="https://github.com/ayushchandrawat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
         </span>
+
         <span>
-          <a href="https://www.linkedin.com/in/ayush-chandrawat-a590a8327/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ayush-chandrawat-a590a8327/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedinIn />
           </a>
         </span>
-    
+
         <span>
-          <a href="https://www.instagram.com/banna_ayush_2006" target="_blank">
+          <a
+            href="https://www.instagram.com/banna_ayush_2006"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
           </a>
         </span>
       </div>
-<<<<<<< HEAD
-      <a className="resume-button" href="https://drive.google.com/file/d/16iO5kUXdTDnGkV7j0gvZ23-mL6g80hrY/view?usp=drive_link">
-=======
-      {/* <a className="resume-button" href="https://drive.google.com/file/d/15Cj3882Po-BLKEKByNESiULXOATC0_AB/view?usp=drive_link">
->>>>>>> c3910e5 (Initial commit: Add all project files and resume PDF)
->>>>>>> 32405b7 (Resolved merge conflicts)
+
+      <a
+        className="resume-button"
+        href="/images/AYUSH RESUME.pdf"
+        rel="noopener noreferrer"
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
-      </a> */}
-
-      <a
-      className="resume-button"
-<<<<<<< HEAD
-      href="/images/AYUSH RESUME.pdf"  
-=======
-      href="public/images/AYUSH RESUME.pdf"  
->>>>>>> 32405b7 (Resolved merge conflicts)
-      // target="_blank"    
-      rel="noopener noreferrer"
-    >
-      <HoverLinks text="RESUME" />
-      <span>
-        <TbNotes />
-      </span>
-    </a>
+      </a>
     </div>
   );
 };
 
 export default SocialIcons;
+
